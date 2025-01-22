@@ -114,7 +114,6 @@ fruits.fill("Kiwi");
 fruits.fill("Kiwi", 2, 4);
 
 
-
 /*
 array.filter(function(currentValue, index, arr), thisValue)
 
