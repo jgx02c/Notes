@@ -42,7 +42,29 @@ while i < len(thislist):
   i = i + 1
 
 # .sort() will sort alphabetically or numberically
+#By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+
 thislist.sort()
+
+# or
+
+thislist.sort(key = str.lower)
 
 # To sort descending, use the keyword argument reverse = True:
 thislist.sort(reverse = True)
+
+# Make a copy of a list with the copy() method:
+mylist = thislist.copy()
+
+# reverse() will revers the order of the list
+
+thislist.reverse()
+
+# Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+# A tuple is a collection which is ordered and unchangeable.
+# Tuples are written with round brackets.
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+
